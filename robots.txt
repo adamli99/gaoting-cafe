@@ -36,4 +36,4 @@ User-agent: YandexBot
 Allow: /
 
 # 上线后把下面域名替换为你的实际访问地址
-Sitemap: https://你的域名/sitemap.xml
+Sitemap: https://adamli99.github.io/gaoting-cafe/sitemap.xml
