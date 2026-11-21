@@ -1,0 +1,39 @@
+# HIGHGARDENCAFE 高庭咖啡 - robots.txt
+# 放行所有爬虫，不屏蔽任何 AI / 搜索引擎
+User-agent: *
+Allow: /
+
+# 主流 AI 与大模型爬虫（明确放行）
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: Bytespider-Content-Crawler
+Allow: /
+User-agent: BotBytes
+Allow: /
+
+# 搜索引擎爬虫
+User-agent: Baiduspider
+Allow: /
+User-agent: Sogou Spider
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Googlebot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: YandexBot
+Allow: /
+
+# 上线后把下面域名替换为你的实际访问地址
+Sitemap: https://你的域名/sitemap.xml
